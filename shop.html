@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <section id="header">
+        <a href="#"><img src="photos/3/e logo.png" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html" >Home</a></li>
+                 <li><a href="shop.html" class="active">Shop</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                   <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                     <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                     <a href="#" id="close"><i class="fas fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+
+    </section>
+    <section id="page-header">
+        
+        <h2>#stayhome</h2>
+        
+        <p>Save more with coupons & up top 70% off!</p>
+        
+    </section>
+    <section id="product1" class="section-p1">
+        <div class="pro-container">
+            <div class="pro">
+            
+                <img src="photos/3/t1.jpg">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <div class="cart">
+                <a  onclick="addToCart('001', 78, 'photos/3/t1.jpg' )"><i class="fa-solid fa-cart-plus"></i></a>
+</div>
+            </div>
+            
+            <div class="pro">
+                <img src="photos/3/t5.jpeg">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$188</h4>
+                </div>
+                <div class="cart">
+                <a  onclick="addToCart('002', 188, 'photos/3/t5.jpeg' )"><i class="fa-solid fa-cart-plus"></i></a>
+</div>
+            </div>
+            <div class="pro">
+                <img src="photos/3/t2.jpg">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$48</h4>
+                </div>
+                <div class="cart">
+                <a  onclick="addToCart('003', 48, 'photos/3/t2.jpg' )"><i class="fa-solid fa-cart-plus"></i></a>
+</div>
+            </div>
+            <div class="pro">
+                <img src="photos/3/t3.jpg">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$208</h4>
+                </div>
+                <div class="cart">
+                <a  onclick="addToCart('004', 208, 'photos/3/t3.jpg' )"><i class="fa-solid fa-cart-plus"></i></a>
+</div>
+            </div>
+            <div class="pro">
+                <img src="photos/3/t4.jpeg">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$100</h4>
+                </div>
+                <div class="cart">
+                <a  onclick="addToCart('005', 100, 'photos/3/t4.jpeg' )"><i class="fa-solid fa-cart-plus"></i></a>
+</div>
+            </div>
+            <div class="pro">
+                <img src="photos/3/t5.jpeg">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$125</h4>
+                </div>
+                <div class="cart">
+                <a  onclick="addToCart('006', 125, 'photos/3/t5.jpeg' )"><i class="fa-solid fa-cart-plus"></i></a>
+</div>
+            </div>
+            <div class="pro">
+                <img src="photos/3/t6.jpeg">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$102</h4>
+                </div>
+                <div class="cart">
+                <a onclick="addToCart('007', 102, 'photos/3/t6.jpeg' )"><i class="fa-solid fa-cart-plus"></i></a>
+</div>
+            </div>
+            <div class="pro">
+                <img src="photos/3/t1.jpg">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <div class="cart">
+                <a onclick="addToCart('008', 188, 'photos/3/t1.jpg' )"><i class="fa-solid fa-cart-plus"></i></a>
+</div>
+            </div>
+
+            <div class="pro">
+                <img src="photos/3/s1.jpg">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$120</h4>
+                </div>
+                <div class="cart">
+                <a onclick="addToCart('009', 120, 'photos/3/s1.jpg' )"><i class="fa-solid fa-cart-plus"></i></a>
+</div>
+            </div>
+            <div class="pro">
+                <img src="photos/3/s2.png">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$25</h4>
+                </div>
+                <div class="cart">
+                <a onclick="addToCart('010', 25, 'photos/3/s2.png' )"><i class="fa-solid fa-cart-plus"></i></a>
+</div>
+            </div>
+            <div class="pro">
+                <img src="photos/3/t5.jpeg">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$50</h4>
+                </div>
+                <div class="cart">
+                <a onclick="addToCart('011', 50, 'photos/3/t5.jpeg' )"><i class="fa-solid fa-cart-plus"></i></a>
+</div>
+            </div>
+            <div class="pro">
+                <img src="photos/3/s4.jpg">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$70</h4>
+                </div>
+                <div class="cart">
+                <a  onclick="addToCart('012', 70, 'photos/3/s4.jpg' )"><i class="fa-solid fa-cart-plus"></i></a>
+</div>
+            </div>
+            <div class="pro">
+                <img src="photos/3/s5.jpg">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$188</h4>
+                </div>
+                <div class="cart">
+                <a  onclick="addToCart('013', 188, 'photos/3/s5.jpg' )"><i class="fa-solid fa-cart-plus"></i></a>
+</div>
+            </div>
+            <div class="pro">
+                <img src="photos/3/s6.avif">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$130</h4>
+                </div>
+                <div class="cart">
+                <a onclick="addToCart('014', 130, 'photos/3/s6.avif' )"><i class="fa-solid fa-cart-plus"></i></a>
+</div>
+            </div>
+            <div class="pro">
+                <img src="photos/3/t6.jpeg">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <div class="cart">
+                <a  onclick="addToCart('015', 78, 'photos/3/t6.jpeg' )"><i class="fa-solid fa-cart-plus"></i></a>
+</div>
+            </div>
+            <div class="pro">
+                <img src="photos/3/t1.jpg">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$120</h4>
+                </div>
+                <div class="cart">
+                <a  onclick="addToCart('016', 120, 'photos/3/t1.jpg' )"><i class="fa-solid fa-cart-plus"></i></a>
+</div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <section id="pagination" class="section-p1">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#"><i class="fas fa-long-arrow-alt-right"></i></a>
+
+
+    </section>
+    
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+    
+      <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="photos/3/e logo.png">
+            <h4>Contact </h4>
+            <p><strong>Address: </strong>Al-Nahyan Street, Near Al-Jazeera Club, Abu Dhabi.</p>
+            <p><strong>Hours: </strong>10:00 - 18:00, Mon - Sat</p>
+            <p><strong>Phone: </strong> +01 2222 765 /(+91) 01 2356 5678</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                   <i class="fab fa-facebook"></i> 
+                   <i class="fab fa-instagram"></i> 
+                   <i class="fab fa-twitter"></i> 
+                   <i class="fab fa-pininterest"></i> 
+                   <i class="fab fa-youtube"></i> 
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+         <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wallet</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Goggle PlayStore</p>
+            <div class="row">
+                <img class="glogo" src="photos/3/google.webp">
+                <img src="photos/3/apple.png">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img class="plogo" src="photos/3/payment.jpg">
+        </div>
+        <div class="copyright">
+            <p>© 2025, Tech2 etc - HTML CSS Ecommerce Template</p>
+        </div>
+
+      </footer>
+
+    
+
+
+    <script>
+ function addToCart(name, price, img) {
+    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+  const item = cart.find(i => i.name === name);
+  if (item) {
+    item.qty++;
+  } else {
+    cart.push({ name, price, img , qty: 1 });
+  }
+  localStorage.setItem("cart", JSON.stringify(cart));
+  loadCart();
+  
+}
+
+const bar = document.getElementById('bar');
+const close = document.getElementById('close');
+const nav = document.getElementById('navbar');
+
+if(bar) {
+    bar.addEventListener('click', ()=> {
+       nav.classList.add('active');
+    })
+}
+
+if(close) {
+    close.addEventListener('click', ()=> {
+       nav.classList.remove('active');
+    })
+}
+
+    </script>
+    </body>
+    </html>
